@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.5 2ca3f387">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2019-02-13T06:51:03Z"/>
+
+  <node id="21265775" lat="50.5350159" lon="5.6293520"/>
+  <node id="21265776" lat="50.5346804" lon="5.6276238"/>
+  <node id="1312239857" lat="50.5347491" lon="5.6278274"/>
+  <node id="1312239864" lat="50.5348877" lon="5.6286790">
+    <tag k="highway" v="crossing"/>
+    <tag k="traffic_calming" v="table"/>
+  </node>
+  <node id="2025084669" lat="50.5353414" lon="5.6303289">
+    <tag k="traffic_calming" v="choker"/>
+  </node>
+  <node id="3362188585" lat="50.5345623" lon="5.6274183">
+    <tag k="traffic_calming" v="choker"/>
+  </node>
+  <way id="191950462">
+    <nd ref="2025084669"/>
+    <nd ref="21265775"/>
+    <nd ref="1312239864"/>
+    <nd ref="1312239857"/>
+    <nd ref="21265776"/>
+    <nd ref="3362188585"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Rue d'Esneux"/>
+    <tag k="source:maxspeed" v="school zone"/>
+  </way>
+
+</osm>
