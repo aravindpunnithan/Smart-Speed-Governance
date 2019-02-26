@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-lat =  76.61720
-lng = 9.31783
-N = 0.01
+lat =  76.61748
+lng = 9.31481
+N = 0.001
 a = lat - (0.009 * N)
 b = lat + (0.009 * N)
 c = lng - (0.009 * N)
