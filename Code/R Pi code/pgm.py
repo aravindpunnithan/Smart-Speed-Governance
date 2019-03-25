@@ -16,4 +16,4 @@ y=BeautifulSoup(r.text)
 
 for i in  y.findAll("way")[0].findAll("tag"):
     if i["k"] == "maxspeed":
-        print "Max Speed is {}".format(i["v"])
+        print "Maximum Permissible Speed is {}".format(i["v"])
