@@ -84,14 +84,14 @@ while True:
 
     print (limit)
 
-    if (limit==10):
+    if (limit==20):
         GPIO.output(17,GPIO.LOW)
         GPIO.output(27,GPIO.HIGH)
 
-    if (limit==20):
+    if (limit==30):
         GPIO.output(17,GPIO.HIGH)
         GPIO.output(27,GPIO.LOW)
 
-    if (limit==30):
+    if (limit==40):
         GPIO.output(17,GPIO.HIGH)
         GPIO.output(27,GPIO.HIGH)
