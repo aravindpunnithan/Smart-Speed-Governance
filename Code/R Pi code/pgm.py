@@ -1,9 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-
-lat =  76.61748
-lng = 9.31481
+lat =  76.61735
+lng = 9.31570
 N = 0.001
 a = lat - (0.009 * N)
 b = lat + (0.009 * N)
@@ -16,4 +15,4 @@ y=BeautifulSoup(r.text)
 
 for i in  y.findAll("way")[0].findAll("tag"):
     if i["k"] == "maxspeed":
-        print "Max Speed is {}".format(i["v"])
+        print "Maximum Permissible Speed is {}".format(i["v"])
